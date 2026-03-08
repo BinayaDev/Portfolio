@@ -245,6 +245,7 @@ color: white;
 }
 
 .about-details-container {
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
@@ -274,6 +275,8 @@ color: white;
 }
 
 .section-container{
+    display: flex;
+    align-items: center;
     gap: 4rem;
     height: 80%;
 }

@@ -250,6 +250,21 @@ color: white;
 
 .about-details-container {
     display: flex;
+
+    .text-container {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-container p strong {
+        color: lightskyblue;
+    }
    /* justify-content: center; */
     flex-direction: column;
     gap: 2rem;
@@ -294,11 +309,11 @@ color: white;
 }
 
 /* contact */
-#contact {
+#experience, #projects, #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: fit-content;
 }
 
 .contact-info-upper-container {

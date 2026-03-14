@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- START: Document Head -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +8,9 @@
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="mediaquaries.css">
 </head>
+<!-- END: Document Head -->
+
+<!-- START: Navigation Section -->
 <body>
     <nav id="desktop-nav">
 <div class="logo">Binaya adhikari</div>
@@ -35,6 +39,9 @@
             </div>
         </div>
     </nav>
+<!-- END: Navigation Section -->
+
+<!-- START: Profile/Hero Section -->
     <section id="profile">
         <div class="section__pic-container">
             <img src="assets/profilepicture.jpeg" alt="Binaya adhikari profile picture">
@@ -59,16 +66,19 @@
                 <img src="assets/linkedinlogo.jpeg" 
                 alt="My linkedin profile"
                 class="icon" 
-                onclick="location.href='https://www.linkedin.com/in/binaya-adhikari-322a36301?utm_source=share_via&utm_content=profile&utm_medium=member_android' " 
+onclick="location.href='https://www.linkedin.com/in/binaya-adhikari-322a36301?utm_source=share_via&utm_content=profile&utm_medium=member_android'"
                 />
                    <img src="assets/githublogo.jpeg" 
                    alt="My Github profile"
                 class="icon" 
-                onclick="location.href='https://github.com/BinayaDev' " 
+onclick="location.href='https://github.com/BinayaDev'"
                 />
             </div>
         </div>
     </section>
+<!-- END: Profile/Hero Section -->
+
+<!-- START: About Section -->
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
@@ -100,7 +110,7 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptates aliquam modi nostrum nobis, optio nulla porro illo saepe assumenda ex molestias quae repellat. Pariatur obcaecati, aperiam velit ab commodi architecto similique fugit. Blanditiis atque ad molestias iusto quibusdam, facere inventore nemo voluptatem? Quia, non consequatur aut necessitatibus sapiente sint?
+                        I’m a Frontend Developer and student, skilled in <strong>HTML, CSS, JavaScript, Python, C, and Java</strong>. I love creating responsive, user-friendly websites and am currently exploring <strong>Machine Learning</strong> to expand my skills.
                     </p>
                 </div>
             </div>
@@ -111,9 +121,75 @@
        onclick="location.href='./#experience'"
        />
     </section>
+<!-- END: About Section -->
 
-    <section id="Contact">
-           <p class="section_text_p1">Get in Touch</p>
+<!-- START: Experience Section -->
+    <section id="experience">
+        <p class="section__text__p1">My Work Experience</p>
+        <h1 class="title">Experience</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <!--need to add experience-->
+                <div class="about-pic-placeholder"></div>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Frontend Developer</h3>
+                        <p>Jan 2022 - Present<br>Freelance</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Web Developer Intern</h3>
+                        <p>Jun 2021 - Dec 2021<br>Company XYZ</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>2+ years building responsive web applications using HTML, CSS, JavaScript, React. Passionate about creating user-friendly interfaces.</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow icon.jpg" 
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#projects'"/>
+    </section>
+<!-- END: Experience Section -->
+
+<!-- START: Projects Section -->
+    <section id="projects">
+        <p class="section__text__p1">My Recent Work</p>
+        <h1 class="title">Projects</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <!-- need to add projects -->
+                <div class="about-pic-placeholder"></div>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>E-commerce Website</h3>
+                        <p>React | Node.js | Fullstack</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Portfolio Website</h3>
+                        <p>HTML | CSS | JavaScript</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>View my projects on GitHub. Each project showcases different technologies and problem-solving approaches.</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow icon.jpg" 
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#contact'"/>
+    </section>
+<!-- END: Projects Section -->
+
+<!-- START: Contact Section -->
+    <section id="contact">
+<p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
@@ -130,10 +206,13 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/binaya-adhikari-322a36301?utm_source=share_via&utm_content=profile&utm_medium=member_android' ">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/binaya-adhikari-322a36301?utm_source=share_via&utm_content=profile&utm_medium=member_android'">LinkedIn</a></p>
         </div>
       </div>
     </section>
+<!-- END: Contact Section -->
+
+<!-- START: Footer Section -->
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -146,9 +225,10 @@
         </div>
       </nav>
     </footer>
+<!-- END: Footer Section -->
 
-    </section>
-
+<!-- START: Scripts -->
     <script src="portfolio.js"></script>
+<!-- END: Scripts -->
 </body>
 </html>

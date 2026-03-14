@@ -138,6 +138,9 @@ section{
 
 .section-container {
     display: flex;
+    /* align-items: center;
+    gap: 4rem;
+    margin-top: 2rem; */
 }
 
 /* PROFILE SECTION */
@@ -236,18 +239,21 @@ color: white;
 
 #about {
     position: relative;
+    padding: 4rem 0;
 }
 
 .about-containers {
+    display: flex;
     gap: 2rem;
-    margin-bottom: 2rem ;
-    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
     display: flex;
-    justify-content: center;
+   /* justify-content: center; */
     flex-direction: column;
+    gap: 2rem;
+    flex: 1;
 }
 
 .about-containers, .about-details-container{
@@ -276,9 +282,9 @@ color: white;
 
 .section-container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 4rem;
-    height: 80%;
+    margin-top: 2rem;
 }
 
 .section__pic-container{

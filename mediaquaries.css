@@ -18,6 +18,8 @@
   }
   #hamburger-nav {
     display: flex;
+    justify-content: space-between;
+    padding: 1rem;
   }
   #experience,
   .experience-details-container {
